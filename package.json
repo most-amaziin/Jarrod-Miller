@@ -1,0 +1,28 @@
+{
+  "name": "nickproxy",
+  "version": "1.0.0",
+  "description": "Proxy Server",
+  "author": "Jarrod Miller",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/threetexansandacanadian/nickProxy.git"
+  },
+  "engines": {
+    "node": ">=6.13.0"
+  },
+  "scripts": {
+    "start": "nodemon server",
+    "start-production": "node server/index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "nodemon": "^1.18.10"
+  }
+}
